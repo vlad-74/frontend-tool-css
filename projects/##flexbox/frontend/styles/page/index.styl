@@ -1,0 +1,93 @@
+html
+  height: 100%
+
+body
+  background: #fefefe 
+  margin: 0 
+  padding: 0
+  font:1em/1.3em Arial, Tahoma, "Trebuchet MS", sans-serif
+  color: #272727
+  height: 100%
+
+
+img
+  margin: 0 
+  padding: 0 
+  vertical-align: middle 
+  border: none
+
+.main
+  border: 1px solid #ccc 
+  background: #fff 
+
+.bl
+  border:1px solid #ddd 
+  background: #fffde1 
+  overflow:hidden
+
+.main
+  display: -webkit-box
+  display: -webkit-flex
+  display: -ms-flexbox
+  display: flex
+  max-width: 1280px
+  height: 99%
+  margin: auto
+  justify-content: center
+  align-items: stretch
+  align-content: stretch
+  flex-flow: row wrap
+
+
+.bl
+	flex: 1 1 200px 
+	text-align: center
+
+      
+.fl1
+	height: 10% 
+	background:#7cd2dd 
+	border-color:#6fbac4 
+	order: 1
+	flex-basis: 100%
+      
+.fl2
+	height: 80% 
+	background:#eb9e65 
+	border-color:#cc8a58 
+	order: 2
+	flex-basis: 19%
+.fl3
+	height: 80% 
+	background:#d051d0 
+	border-color:#ba48ba 
+	order: 3 
+	flex-basis: 80%
+      
+.fl4
+	height: 10% 
+	background:#f2f26e 
+	border-color:#d6d665 
+	order: 4 
+	flex-basis: 50%
+
+/*
+display: flex - ОБЪЯВЛЯЕМ КОНТЕЙНЕР
+
+flex-flow - Является сокращённым свойством для отдельных свойств flex-direction и flex-wrap.
+
+flex-wrap: wrap  - задает правила вывода flex-элементов —  в одну строку или в несколько, с переносом блоков
+
+flex-direction - задаёт направление основных осей в контейнере и тем самым определяет положение флексов в контейнере
+
+flex-grow: 1 - определяет, какую часть свободного пространства может занять контейнер, в соотношении с другими контейнерами
+
+flex-basis: 150px - определяет основу флекса, которая является начальным размером элемента. Похоже на свойства width и height, к которым добавляется содержимое элемента.
+
+justify-content: center - определяет, как браузер распределяет пространство между и вокруг элементов контента, вдоль главной оси их контейнера.
+
+align-items: stretch - выравнивает флекс-элементы внутри контейнера в перпендикулярном направлении.
+
+align-content: stretch - задаёт тип выравнивания строк внутри флекс-контейнера по поперечной оси при наличии свободного пространства.
+
+*/
