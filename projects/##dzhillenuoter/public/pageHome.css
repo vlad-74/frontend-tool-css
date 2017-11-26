@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Nautilus Pompilius';
+    /*src: local('☺'), url('../../fonts/nautiluspompilius.woff2') format('woff2'), url('../../fonts/nautiluspompilius.woff') format('woff'), url('../../fonts/nautiluspompilius.ttf') format('truetype');*/
+    font-weight: 400;
+    font-style: normal;
+}
+
+#paper {
+	color: #333;
+	font-size: 107.5%;
+	line-height: 1.6;
+	float: left; /* float containment */
+	min-width: 400px;
+	/*max-width: 1280em;*/
+	padding: 3.2em 1.6em 1.6em 1.6em;
+	margin: 0 60px 0 60px;
+	
+	border-width: 0 0 0 50px;
+	border-style: solid;
+	-moz-border-image: url(../../img/home/edge.png) 0 0 0 50 round; 
+	-webkit-border-image: url(../../img/home/edge.png) 0 0 0 50 round; 
+	border-image: url(../../img/home/edge.png) 0 0 0 50 round;
+	
+	background: url(../../img/home/paperlines.gif) #FBFBF9; /* IE, old FF */
+	background: url(../../img/home/thumbtack.png) 50% 5px no-repeat, url(../../img/home/stains1.png) 50% 10px no-repeat, url(../../img/home/stains2.png) 90% 1% no-repeat, url(../../img/home/stains3.png) 20% 50% no-repeat, url(../../img/home/stains4.png) 40% 60% no-repeat, url(../../img/home/paperlines.gif) #FBFBF9;
+	
+	-moz-background-size: auto, auto, auto, auto, auto, auto 1.6em;
+	-webkit-background-size: auto, auto, auto, auto, auto, auto 1.6em;
+	background-size: auto, auto, auto, auto, auto, auto 1.6em; /* Chrome, Opera 10.5 */
+	
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* Chrome, Opera 10.5 */
+	
+	-moz-box-shadow: 6px 5px 3px hsla(0,0%,0%,.2);
+	-webkit-box-shadow: 6px 5px 3px hsla(0,0%,0%,.2);
+	box-shadow: 6px 5px 3px hsla(0,0%,0%,.2);
+}
+#paper h1 {
+	margin: -.3em 0 .14em 0;
+	color: blue;
+	font-family: 'Nautilus Pompilius', Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 3.5em;
+	font-weight: normal;
+	text-align: center;
+}
+#paper h2 {
+	clear: left;
+	margin: 0 0 -.14em 0;
+	color: blue;
+	font-family: 'Nautilus Pompilius', Helvetica, "Helvetica Neue", Arial, sans-serif;
+	font-size: 2.17em;
+	font-weight: bold;
+	text-align: left;
+}
+#paper h3 {
+	float: left;
+	margin: .3em 0 0 0;
+	font-size: .8em;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+#paper p {
+	margin: 0 0 1.6em 0;
+	text-align: left;
+}
+#paper ul {
+	overflow: hidden; /* float containment */
+	margin: 0 0 1.6em 0;
+	padding: 0;
+	list-style: none;
+}
+#paper li {
+	float: left;
+	margin: 0;
+	padding: 0 0 0 1em;
+}
+#paper a {
+	color: #146DA3;
+}
+#paper ul a[href] {
+	display: block;
+	min-height: 15px;
+	padding-left: 20px;
+	background-repeat: no-repeat;
+	background-position: 0 3px;
+}
+#paper .ie6 ul a[href] {
+	display: inline-block;
+	white-space: nowrap;
+}
+#paper a[href$=".pdf"] {
+	background-image: url(../../img/home/icon_pdf.png);
+}
+#paper a[href$=".doc"] {
+	background-image: url(../../img/home/icon_doc.png);
+}
+#paper a[href*="youtube."] {
+	background-image: url(../../img/home/icon_film.png);
+}
+#paper a[href*="vk."] {
+	background-image: url(../../img/home/icon_photo.png);
+}
+#paper img {
+	float: right;
+	margin: -50px 0 10px 20px;
+	border: 1px solid #ccc;
+}
+#paper img[src*=thumbnails] {
+	float: left;
+	margin: 0 20px 10px 0;
+}
+#paper img[src*=photos] {
+	padding: 5px 5px 30px 5px;
+	background: #fff;
+	-moz-box-shadow: 3px 6px 8px -4px #999;
+	-webkit-box-shadow: 3px 6px 8px -4px #999;
+	box-shadow: 3px 6px 8px -4px #999;
+	-moz-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+	transform: rotate(2deg);
+}
+
+#paper #Toma{
+	margin: 10px 0 0 0;
+	border-radius: 50%;
+	padding: 0;
+}
+
+/* Safari only override */
+::i-block-chrome,#paper #Toma{
+	 margin: -5px 0 0 0;
+} 

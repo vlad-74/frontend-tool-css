@@ -1,0 +1,60 @@
+*
+    margin 0
+    padding 0
+    box-sizing border-box // с box-sizing border-box ПАРАМЕТР width У &.col-1
+
+body
+    font 100%/1.5em Arial, sans-serif
+    color #000
+
+
+.container
+    width 90%
+    margin 0 auto
+    background #d2d2d2
+    .cols
+        float left
+        margin 0 0 1em
+        padding 0 1em
+        background #fd4
+        text-align center
+        &.col-1
+            width 8.3333333332%
+        &.col-2
+            width 16.666666667%
+        &.col-3
+            width 25%
+        &.col-4
+            width 33.333333333%
+        &.col-5
+            width 41.666666667%
+        &.col-6
+            width 50%
+        &.col-7
+            width 58.333333333%
+        &.col-8
+            width 66.666666667%
+        &.col-9
+            width 75%
+        &.col-10
+            width 83.333333332%
+        &.col-11
+            width 91.666666667%
+        &.col-12
+            width 100%
+
+
+/*ОЧИЩАЕМ float ФЛОАТЫ */
+.container:before,
+.container:after,
+.row:after,
+.row:before,
+.clear:before,
+.clear:after
+    content " "
+    display table
+
+.container:after,
+.row:after,
+.clear:after
+    clear both

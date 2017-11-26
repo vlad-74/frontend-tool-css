@@ -1,0 +1,14 @@
+.tooltip-inner {
+  white-space: pre;
+  min-width: none;
+}
+h1 {
+  margin-bottom: 40px;
+}
+.bg-success,
+.bg-danger {
+  margin-bottom: 15px;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBhZ2UvaW5kZXguc3R5bCJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGFBQVksSUFBWjtFQUNBLFdBQVUsS0FBVjs7QUFFSjtFQUNDLGVBQWMsS0FBZDs7QUFFRDtBQUFhO0VBQ1osZUFBYyxLQUFkO0VBQ0EsU0FBUSxLQUFSIiwiZmlsZSI6ImluZGV4LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi50b29sdGlwLWlubmVyXG4gICAgd2hpdGUtc3BhY2UgcHJlXG4gICAgbWluLXdpZHRoIG5vbmVcblxuaDFcblx0bWFyZ2luLWJvdHRvbSA0MHB4XG5cbi5iZy1zdWNjZXNzLCAuYmctZGFuZ2VyXG5cdG1hcmdpbi1ib3R0b20gMTVweFxuXHRwYWRkaW5nIDE1cHgiXX0= */

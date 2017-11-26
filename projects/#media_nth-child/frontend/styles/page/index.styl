@@ -1,0 +1,56 @@
+.container
+    width 80%
+    margin 30px auto
+    overflow hidden
+    ul
+        li
+            list-style none
+            float left
+            font 10px/1.5 Verdana, Helvetica, Sans-serif
+            width 16%
+            margin 2% 2% 40px 2%
+            a
+                color #5d5f5d
+                img
+                    max-width 100%
+
+@media only screen and (min-width : 941px)
+    .container
+        ul
+            li
+                &:nth-child(5n
+                    & + 1)
+                        clear left
+
+@media only screen and (min-width: 721px ) and (max-width : 940px)
+    .container
+        ul
+            li
+                width 21%
+                &:nth-child(4n
+                    & + 1)
+                        clear left
+
+@media only screen and (min-width: 531px ) and (max-width : 720px)
+    .container
+        ul
+            li
+                width 29.33333%
+                &:nth-child(3n
+                    & + 1)
+                        clear left
+
+@media only screen and (min-width: 321px ) and (max-width : 530px)
+    .container
+        ul
+            li
+                width 46%
+                &:nth-child(2n
+                    & + 1)
+                        clear left
+
+@media only screen and (max-width : 320px)
+    .container
+        ul
+            li
+                width 96%

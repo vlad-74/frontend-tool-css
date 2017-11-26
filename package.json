@@ -45,6 +45,7 @@
     "gulp-useref": "3.0.4",
     "gulplog": "1.0.0",
     "help-functions": "1.0.45",
+    "jQuery": "^1.7.4",
     "json-loader": "0.5.7",
     "lazypipe": "1.0.1",
     "nconf": "0.8.5",

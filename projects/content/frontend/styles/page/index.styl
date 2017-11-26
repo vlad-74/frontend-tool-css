@@ -1,0 +1,39 @@
+body
+    font-family menlo, monaco
+
+#navbar
+    width 40px
+    position fixed
+    ul
+        padding 0
+        margin 0
+        li
+            float left
+            a
+                display block
+                background #ccc
+                padding 10px 20px
+                margin-bottom 4px
+                text-decoration none
+                color red
+                &:hover
+                    background #999
+                    color white
+
+#steps
+    margin-left 70px
+
+.step
+    position relative
+    height 400px
+    padding 20px
+    background-color #aaa
+    clear both
+    margin-top 10px
+    &:before
+        content attr(id)
+        color white
+        font-size 2em
+        position absolute
+        top 10px
+        left 20px
